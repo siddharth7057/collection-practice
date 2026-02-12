@@ -105,6 +105,20 @@ public class CollectionInterfaceMethods
 		System.out.println("=====After clearing====");
 		System.out.println(c);
 
+		//convert collection to object array.
+		ArrayList arraylist = new ArrayList();
+		arraylist.add(78);
+		arraylist.add(36);
+		arraylist.add(165);
+		arraylist.add(172);
+
+		System.out.println("====Object class array====");
+		Object[] obj = arraylist.toArray();
+		System.out.println(obj[0]);
+		System.out.println(obj[1]);
+		System.out.println(obj[2]);
+		System.out.println(obj[3]);
+
 		
 	}
 }
